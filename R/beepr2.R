@@ -54,7 +54,7 @@ beep <- function(sound=1, expr=NULL) {
               facebook = "facebook.wav",
               sword = "sword.wav",
               elephant = "elephant.wav",
-              1up = "1up.wav",
+              one_up = "1up.wav",
               airship_clear = "airship_clear.wav",
               boo = "boo.wav",
               castle_clear = "castle_clear.wav",
