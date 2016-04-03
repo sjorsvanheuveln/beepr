@@ -71,9 +71,7 @@ beep <- function(sound=1, expr=NULL) {
               pipemaze = "pipemaze.wav",
               save_menu = "save_menu.wav",
               star_appears = "star_appears.wav",
-              time_warning = "time_warning.wav",
-              warp_whistle = "warp_whistle.wav",
-              world_clear = "world_clear.wav")
+              warp_whistle = "warp_whistle.wav")
   sound_path <- NULL
   if(is.na(sounds[sound]) || length(sounds[sound]) != 1) {
     if(is.character(sound)) {
