@@ -53,7 +53,7 @@ beep <- function(sound=1, expr=NULL) {
               wilhelm = "wilhelm.wav",
               facebook = "facebook.wav",
               sword = "sword.wav",
-              elephant = "elephant.wav)
+              elephant = "elephant.wav")
   sound_path <- NULL
   if(is.na(sounds[sound]) || length(sounds[sound]) != 1) {
     if(is.character(sound)) {
