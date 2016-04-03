@@ -74,11 +74,11 @@ beep <- function(sound=1, expr=NULL) {
       }
     }
   } else {
-    sound_path <- system.file(paste("sounds/", sounds[sound], sep=""), package="beepr")
+    sound_path <- system.file(paste("sounds/", sounds[sound], sep=""), package="beepr2")
   }
   
   if(is.null(sound_path)) { # play a random sound
-    sound_path <- system.file(paste("sounds/", sample(sounds, size=1), sep=""), package="beepr")
+    sound_path <- system.file(paste("sounds/", sample(sounds, size=1), sep=""), package="beepr2")
   }
   
   tryCatch(play_file(sound_path), error = function(ex) {
