@@ -1,9 +1,11 @@
-`beepr2`: Easily Play Notification Sounds in R
+`beepr2`: Even more Notification Sounds in R
 ========================================================
 
-`beepr2` is an R package that contains one function, `beep()`, with one purpose: To make it easy to play notification sounds on whatever platform you are on. It is intended to be useful, for example, if you are running a long analysis in the background and want to know when it is ready. 
+`beepr2` is an R package that contains one function, `beep()`, with one purpose: To make it easy to play notification sounds when running your R script. It is intended to be useful, for example, if you are running a long analysis in the background and want to know when it is ready. 
 
 `beepr2` is a forked version of the original from <a href="/rasmusab/beepr">rasmusab/beepr</a> and all respects and kudos go out to him for making the original from which I have used the vast majority. The goal of beepr2 is to expand the library with more sounds, so you can even have a better time in R. Cheers
+
+By: Sjors van Heuveln
 
 
 Installation in R
