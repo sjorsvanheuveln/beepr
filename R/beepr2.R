@@ -60,8 +60,6 @@ beep <- function(sound=1, expr=NULL) {
       sound <- str_trim(sound)
       if(file.exists(sound)) {
         sound_path <- sound
-      } else {
-        warning(paste('"', sound, '" is not a valid sound nor path, playing a random sound instead.', sep = ""))
       }
     }
   } else {
