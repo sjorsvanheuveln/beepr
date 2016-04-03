@@ -62,7 +62,7 @@ beep <- function(sound=1, expr=NULL) {
         sound_path <- sound
       }
     }
-  } else {
+  }else{
     sound_path <- system.file(paste("sounds/", sounds[sound], sep=""), package="beepr2")
   }
   
