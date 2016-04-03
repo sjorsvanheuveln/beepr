@@ -11,7 +11,7 @@ Installation in R
 
 ```
 library(devtools)
-install_github("beepr2", "sjorsvanheuveln")
+install_github("sjorsvanheuveln/beepr2")
 ```
 
 Details
@@ -21,7 +21,7 @@ Details
 
 ### Usage
 
-`beep(sound = 1, expr = NULL)`
+`beep(12)` #plays the elephant sound
 
 ### Arguments
 
