@@ -53,7 +53,28 @@ beep <- function(sound=1, expr=NULL) {
               wilhelm = "wilhelm.wav",
               facebook = "facebook.wav",
               sword = "sword.wav",
-              elephant = "elephant.wav")
+              elephant = "elephant.wav",
+              1up = "1up.wav",
+              airship_clear = "airship_clear.wav",
+              boo = "boo.wav",
+              castle_clear = "castle_clear.wav",
+              congrats = "congrats.wav",
+              course_clear = "course_clear.wav",
+              data = "data.wav",
+              fortress_clear = "fortress_clear.wav",
+              happy_message = "happy_message.wav",
+              high_score = "high_score.wav",
+              key_get = "key_get.wav",
+              level_clear = "level_clear.wav",
+              lost_life = "lost_life.wav",
+              mushroom = "mushroom.wav",
+              pause = "pause.wav",
+              pipemaze = "pipemaze.wav",
+              save_menu = "save_menu.wav",
+              star_appears = "star_appears.wav",
+              time_warning = "time_warning.wav",
+              warp_whistle = "warp_whistle.wav",
+              world_clear = "world_clear.wav")
   sound_path <- NULL
   if(is.na(sounds[sound]) || length(sounds[sound]) != 1) {
     if(is.character(sound)) {
