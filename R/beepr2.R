@@ -60,14 +60,25 @@ beep <- function(sound=1, expr=NULL) {
       sound <- str_trim(sound)
       if(file.exists(sound)) {
         sound_path <- sound
+      } else if(str_detect(sound, "^https://")) {
+        warning("Can't currently use https urls, only http.")
+      } else if(str_detect(sound, "^http://")) {
+        temp_file <- tempfile(pattern="")
+        if(download.file(sound, destfile = temp_file, quiet = TRUE) == 0) { # The file was successfully downloaded
+          sound_path <- temp_file
+        } else {
+          warning(paste("Tried but could not download", sound))
+        }
+      } else {
+        warning(paste('"', sound, '" is not a valid sound nor path, playing a random sound instead.', sep = ""))
       }
     }
-  }else{
-    sound_path <- system.file(paste("sounds/", sounds[sound], sep=""), package="beepr2")
+  } else {
+    sound_path <- system.file(paste("sounds/", sounds[sound], sep=""), package="beepr")
   }
   
   if(is.null(sound_path)) { # play a random sound
-    sound_path <- system.file(paste("sounds/", sample(sounds, size=1), sep=""), package="beepr2")
+    sound_path <- system.file(paste("sounds/", sample(sounds, size=1), sep=""), package="beepr")
   }
   
   tryCatch(play_file(sound_path), error = function(ex) {
