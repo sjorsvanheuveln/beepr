@@ -26,4 +26,3 @@ beep()
 \author{
 Sjors van Heuveln < sjorsvanheuveln@gmail.com >
 }
-
