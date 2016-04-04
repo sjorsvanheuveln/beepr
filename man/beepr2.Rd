@@ -4,7 +4,7 @@
 \name{beepr2}
 \alias{beepr2}
 \alias{beepr2-package}
-\title{Even more Notification Sounds R}
+\title{Easily Play Notification Sounds on any Platform}
 \description{
 This package contains one function, beep(), with one purpose: To make it easy
 to play notification sounds on whatever platform you are on. It is intended to
@@ -24,5 +24,6 @@ installed and on the PATH. Chances are that you alread have one of these.
 beep()
 }
 \author{
-Sjors van Heuveln < sjorsvanheuveln@gmail.com >
+Rasmus Bååth < rasmus.baath@gmail.com >
 }
+
