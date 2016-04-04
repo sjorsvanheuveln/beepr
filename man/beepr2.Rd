@@ -24,6 +24,6 @@ installed and on the PATH. Chances are that you alread have one of these.
 beep()
 }
 \author{
-Rasmus Bååth < rasmus.baath@gmail.com >
+Sjors van Heuveln < sjorsvanheuveln@gmail.com >
 }
 
