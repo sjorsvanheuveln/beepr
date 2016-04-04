@@ -21,12 +21,10 @@ installed and on the PATH. Chances are that you alread have one of these.
 
 The first 11 sounds are the original sounds from the beepr package by Rasmus Bååth.
 The sounds starting from index 12 are new in this version including many nostalgic
-90s gaming sound fragment. A selection was made for sound clips suitable for end of
+nineties gaming sound fragments. A selection was made for sound clips suitable for end of
 script notifcations.
-
-For suggestions for new sounds, feel free to send me an email with the .wav attached
+For suggestions on new sounds, feel free to send me an email with the .wav attached
 and I can consider adding it in the next version of beepr2.
-
 }
 \examples{
 # Play a "ping" sound
