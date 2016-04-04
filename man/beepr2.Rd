@@ -20,10 +20,10 @@ ALSA system, or VLC media player (http://www.videolan.org/vlc/index.html) is
 installed and on the PATH. Chances are that you alread have one of these.
 }
 \examples{
-# Play a "ping" soundje
+# Play a "ping" sound
 beep()
 }
 \author{
-Sjors van Heuveln < sjorsvanheuveln@gmail.com >
+Rasmus Bååth < rasmus.baath@gmail.com >
 }
 
