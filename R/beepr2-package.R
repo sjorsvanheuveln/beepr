@@ -1,4 +1,4 @@
-#' Easily Play Notification Sounds on any Platform
+#' Even more Notification Sounds in R
 #' 
 #' This package contains one function, beep(), with one purpose: To make it easy
 #' to play notification sounds on whatever platform you are on. It is intended to
@@ -18,6 +18,6 @@
 #' 
 #' @name beepr2
 #' @docType package
-#' @author Rasmus Bååth < rasmus.baath@@gmail.com >
+#' @author Sjors van < sjorsvanheuveln@gmail.com >
 #' @import audio stringr
 NULL
