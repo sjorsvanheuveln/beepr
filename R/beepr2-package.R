@@ -5,7 +5,7 @@
 #' be useful, for example, if you are running a long analysis in the background
 #' and want to know when it is ready.
 #' 
-#' The package just contains one function \code{\link{beep2}}, check it out to 
+#' The package just contains one function \code{\link{beep}}, check it out to 
 #' see what it does. For sound on Windows and MacOS \pkg{beepr2} depends on the 
 #' \pkg{audio} package. For sound on Linux \pkg{beepr2} depends on that either
 #' the paplay utility from the Pulse Audio system, the aplay utility from the
@@ -18,6 +18,6 @@
 #' 
 #' @name beepr2
 #' @docType package
-#' @author Sjors van < sjorsvanheuveln@gmail.com >
+#' @author Sjors van Heuveln < sjorsvanheuveln@gmail.com >
 #' @import audio stringr
 NULL
