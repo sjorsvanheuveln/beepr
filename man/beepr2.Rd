@@ -10,6 +10,7 @@ This package contains one function, beep(), with one purpose: To make it easy
 to play notification sounds on whatever platform you are on. It is intended to
 be useful, for example, if you are running a long analysis in the background
 and want to know when it is ready.
+
 }
 \details{
 The package just contains one function \code{\link{beep}}, check it out to
@@ -20,11 +21,14 @@ ALSA system, or VLC media player (http://www.videolan.org/vlc/index.html) is
 installed and on the PATH. Chances are that you alread have one of these.
 }
 \examples{
-# Play a "ping" sound
-beep()
+# Play a pipemaze sound
+beep(27)
 }
 \author{
 Sjors van Heuveln < sjorsvanheuveln@gmail.com >
-Rasmus Bååth < rasmus.baath@gmail.com >
-}
 
+}
+\disclaimer{
+This package is an extension of the original package by Rasmus Bååth, so respects go out to him.
+Also many thanks go out to MushroomKingdom.net for supplying the sound clips.
+}
