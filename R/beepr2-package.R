@@ -1,9 +1,9 @@
 #' Even more Notification Sounds in R
 #' 
-#' This package contains one function, beep(), with one purpose: To make it easy
-#' to play notification sounds on whatever platform you are on. It is intended to
-#' be useful, for example, if you are running a long analysis in the background
-#' and want to know when it is ready.
+#' This package is an upgrade of the original beepr-package. In this package I've
+#' the liberty to expand the sound archive and add-in some nogstaligic sounds of 
+#' the nineties. They are absolutely perfect for notifying you when a long script
+#' has finished. Enjoy!
 #' 
 #' The package just contains one function \code{\link{beep}}, check it out to 
 #' see what it does. For sound on Windows and MacOS \pkg{beepr2} depends on the 
@@ -15,6 +15,9 @@
 #' @examples
 #' # Play a "ping" sound
 #' beep()
+
+#' # Play a "pipemaze" sound after command
+#' for (i in 1000:1){print(i)}; beep(27)
 #' 
 #' @name beepr2
 #' @docType package
