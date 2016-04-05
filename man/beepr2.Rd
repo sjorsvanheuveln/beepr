@@ -10,6 +10,8 @@ This package contains one function, beep(), with one purpose: To make it easy
 to play notification sounds on whatever platform you are on. It is intended to
 be useful, for example, if you are running a long analysis in the background
 and want to know when it is ready.
+This package is an extension of the original beepr-package by Rasmus Bååth, respects to him.
+Also many thanks to MushroomKingdom.net for supplying the new sounds clips.
 
 }
 \details{
