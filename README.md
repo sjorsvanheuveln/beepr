@@ -30,7 +30,7 @@ Details
 # Update all packages and "ping" when it's ready
 update.packages(ask=FALSE); beep()
 
-#Play a fanfare instead of a "ping".
+#Play a pipemaze instead of a "ping".
 beep("pipemaze")
 #or
 beep(27)
