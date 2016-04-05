@@ -2,7 +2,7 @@
 % Please edit documentation in R/beepr2.R
 \name{beep}
 \alias{beep}
-\title{Play a short sound}
+\title{Play an awesome sound}
 \usage{
 beep(sound = 1, expr = NULL)
 }
@@ -13,7 +13,13 @@ file or specifying an url. The default is 1. Possible sounds are:
 \enumerate{ \item \code{"ping"} \item \code{"coin"} \item \code{"fanfare"}
 \item \code{"complete"} \item \code{"treasure"} \item \code{"ready"} \item
 \code{"shotgun"} \item \code{"mario"} \item \code{"wilhelm"} \item
-\code{"facebook"} \item \code{"sword"} \item \code{"elephant"} } If \code{sound} does not match any
+\code{"facebook"} \item \code{"sword"} \item \code{"elephant"}  \item \code{"1-up"}
+\item \code{"airship_clear_smb3"} \item \code{"castle_clear_smw"} \item \code{"congrats"}
+\item \code{"course_clear_smw"} \item \code{"data"} \item \code{"fortress_clear_smb3"}
+\item \code{"happy_message_sm64"} \item \code{"highscore_sm64"} \item \code{"key_get_sm64"}
+\item \code{"level_clear_smb3"} \item \code{"lostlife_smb3"} \item \code{"msuhroom_smb3"}
+\item \code{"pause_smb3"} \item \code{"pipe_smb3"} \item \code{"new_item_smb3"}
+\item \code{"star_appear_sm64"}\item \code{"warp_wistle_smb3"}} If \code{sound} does not match any
 of the sounds above, or is a valid path or url, a random sound will be
 played. Currently \code{beep} can only handle http urls, https is not
 supported.}
@@ -23,7 +29,7 @@ supported.}
 \description{
 \code{beep} plays a short sound which is useful if you want to get notified,
 for example, when a script has finished. As an added bonus there are a number
-of different sounds to choose from.
+of different sounds to choose from. Clip indices 13-30 are derived from Super Mario Brothers 3, Super Mario World and Super Mario 64.
 }
 \details{
 If \code{beep} is not able to play the sound a warning is issued rather than
@@ -31,14 +37,14 @@ an error. This is in order to not risk aborting or stopping the process that
 you wanted to get notified about.
 }
 \examples{
-# Play a "ping" sound
+# If no argument given, the first sound is played, which is a "ping" sound
 beep()
 
 \dontrun{
-# Play a fanfare instead of a "ping".
-beep("fanfare")
+# Play a pipemaze sound in stead of "ping".
+beep("pipemaze")
 # or
-beep(3)
+beep(27)
 
 # Play a random sound
 beep(0)
