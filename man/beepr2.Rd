@@ -28,7 +28,3 @@ beep(27)
 Sjors van Heuveln < sjorsvanheuveln@gmail.com >
 
 }
-\disclaimer{
-This package is an extension of the original package by Rasmus Bååth, so respects go out to him.
-Also many thanks go out to MushroomKingdom.net for supplying the sound clips.
-}
