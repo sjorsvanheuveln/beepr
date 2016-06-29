@@ -5,7 +5,7 @@
 
 `beepr2` is an extended version of the original from <a href="/rasmusab/beepr">rasmusab/beepr</a> and all respects and kudos go out to him for making the original package as this is almost a 100% copy. The goal of this adjusted package is to expand the library with even more sounds, so you can even have a better time working with R. 
 
-Also massive thanks to <a href="http://themushroomkingdom.net">themushroomkingdom.net</a> for uploading all those amazing nostalgic sounds, which are super suitable triumhing the finishing of a heavy script. Cheers!
+Also massive thanks to <a href="http://themushroomkingdom.net">themushroomkingdom.net</a> for uploading all those amazing nostalgic sounds, which are super suitable triumphing the finishing of a heavy script. Cheers!
 
 By: Sjors van Heuveln
 04-04-2016
