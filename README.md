@@ -27,10 +27,10 @@ Details
 ### Examples
 
 ```
-# Update all packages and "ping" when it's ready
-update.packages(ask=FALSE); beep()
+# Load library
+library(beepr2)
 
-#Play a pipemaze instead of a "ping".
+# Play a pipemaze sound effect
 beep("pipemaze")
 #or
 beep(27)
